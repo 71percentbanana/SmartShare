@@ -1,0 +1,10 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# transferred files are runtime data, not source
+backend/storage/*
+!backend/storage/.gitkeep
